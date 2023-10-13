@@ -27,7 +27,7 @@ public class tet {
 		String print=driver.findElement(By.id("et_pb_contact_name_0")).getAttribute("value");
 		System.out.println("Entered Value: " + print);
 		Thread.sleep(1000);
-//		driver.close();
+    	driver.close();
 	
 	}
 }
